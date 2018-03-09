@@ -1,0 +1,10 @@
+const Discord = require("discord.js");
+
+var bot = new Discord.Client();
+
+bot.on("ready", function() {
+    bot.user.setGame("Yzer, En test");
+    console.log("Le bot a bien ete connecte");
+});
+
+bot.login("NDIxNzE5NDc4NzMzMTExMjk5.DYRYPw.5xJRowoq05_xv-ViD50ouFlxB5M");
